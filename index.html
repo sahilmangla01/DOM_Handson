@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./index.js" defer></script>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header><h1  >DOM HANDSON</h1></header>
+    <div class="container">
+        <h2 class="Question">Q1.	Write the code to access element which is having id as "text"</h2>
+        <pre class="Answer">Ans.   let text = document.getElementById('text')
+            console.log(text)
+        </pre>
+    </div>
+
+    <div class="container">
+        <h2 class="Question">Q2.	Write the code to access element which is having tag as "h1"</h2>
+        <pre class="Answer">Ans.   let text = document.getElementsByTagName('h1')
+            console.log(text)
+        </pre>
+    </div>
+
+    <div class="container">
+        <h2 class="Question">Q3.	Write the code to access element which is having class as "box"</h2>
+        <pre class="Answer">Ans.   let text = document.getElementsByClassName('box')
+            console.log(text)
+        </pre>
+    </div>
+
+    <div class="container">
+        <h2 class="Question">Q4.	Hello 
+            Change the heading from ""Hello"" to ""Hello World"" using DOM functions"</h2>
+            <h1 class="question4 Answer">Hello</h1>
+    </div>
+
+
+    <div class="container">
+        <h2 class="Question">Q5.	Create an HTML page having content as Hello world and a button named Replace Text. When user will click on this button page content should be changed to "Welcome to Elevation academy"</h2>
+        <h2 class="question5 Answer">Hello World</h2>
+        <button class="btn" onclick="replace()">Replace Text</button>
+    </div>
+
+    <div class="container">
+        <h2 class="Question">Q6.	"Hello"
+            Add one style attribute and give text color as red and id attribute and give the id value as ""heading"" in the above given h1 tag using DOM functions"</h2>
+        <h2 id="heading" class="Answer">Hello</h2>
+    </div>
+
+    <div class="container">
+        <h2 class="Question">Q7.	Create three cards on HTML page and arrange them using flex property in row or horizontal direction and also create button at the bottom named "Change Flex direction". When user clicks on this button, the cards arrangement should be changed to vertical direction.</h2>
+        <div class="question7" style="display: flex;">
+            <div class="box box1" ></div>
+            <div class="box box2" ></div>
+            <div class="box box3" ></div>
+        </div>
+        <button class="btn " onclick="cfd()">Change Flex Direction</button>
+    </div>
+
+    <div class="container">
+        <h2 class="Question">Q8.	What’s the difference between window vs document?</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>WINDOW</th>
+                    <th>DOCUMENT</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Window is the main JavaScript object root, aka the global object</td>
+                    <td>The Document object(DOM) is your html, aspx, php, or other document</td>
+                </tr>
+                <tr>
+                    <td>It is the top most object and outermost element of the object hierarchy</td>
+                    <td> Each HTML document that gets loaded into a window becomes a document object</td>
+                </tr>
+
+                <tr>
+                    <td>The window object represents a window/tab containing a DOM document</td>
+                    <td>Document object is property of window object that points to the DOM document loaded in that window</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class=" container">
+        <h2 class="Question">Q9	Write code to implement timer clock using JS -- display HH:MM:SS -- the time should keep updating every second</h2>
+        <div id="clock" class="Answer" onload="setTime()"></div>
+    </div>
+    <div class="container">
+        <h2 class="Question ">Q10    Guess My Number</h2>
+        <a class="Answer" href="./index2.html"> Check My Number</a>
+    </div>
+
+
+    
+</body>
+</html>

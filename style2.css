@@ -1,0 +1,80 @@
+body{
+    background-color: #321E1E;
+    color: white;
+    
+}
+header{
+    position: relative;
+    height: 260px;
+    border-bottom: 10px solid white;
+}
+h1{
+    position: absolute;
+    top: 30%;
+    left: 38%;
+    font-size: 45px;
+}
+.btwn{
+    position: absolute;
+    right: 2%;
+    font-size: 35px;
+}
+.play{
+    width: 150px;
+    height: 70px;
+    cursor: pointer;
+    position: absolute;
+    left: 30px;
+    top: 20px;
+    color: black;
+    font-size: 20px;
+}
+
+.check{
+    font-size: 15px;
+    padding: 15px 20px;
+    width: 120px;
+    height: 50px;
+    position: relative;
+    top: 30px;
+    left: 70px;
+}
+.questionMark{
+    background-color: white;
+    position: relative;
+    top: 215px;
+    left: 45%;
+    color: black;
+    font-size: 40px;
+    text-align: center;
+    width: 150px;
+    height: 120px;
+    box-sizing: border-box;
+    padding-top: 35px;
+}
+.input{
+    width: 250px;
+    height: 100px;
+    background-color: #321E1E;
+    border: 4px solid white;
+    display: block;
+    color: white;
+    font-size: 40px;
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: center;
+}
+.left{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    top: 150px;  
+} 
+
+.startGuess{
+    font-size: 50px;
+    margin-bottom: 50px;
+}
+.text{
+    font-size: 22px;
+}
